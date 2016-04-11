@@ -1,0 +1,48 @@
+@charset "utf-8";
+
+body
+{
+	font-family: "Segoe UI", Tahoma, Helvetica, freesans, sans-serif;
+	margin: 10px;
+	color: #555;
+	background-color: #F6F6F6;
+}
+input {	
+	border:0;
+	box-shadow:0 0 5px 3px #777;  /*#D6D5B9;*/
+	color: #444;
+	font-size: 1em;
+	width: 170px;
+	height:30px;
+	background-color: #FFF;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-bottom:0;
+	padding-top:0;
+	margin-left:10px;
+	margin-right:10px;
+	margin-bottom:20px;
+}
+.button-design{
+	position:relative;
+	border-radius:5px;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 1.1em;
+	color: #FFF;
+	background-color: #415E99;
+	transition: all 0.8s ease;
+	margin-right:20px;
+	padding-top: 5px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	border: 0;	
+}
+.button-design:hover{
+	cursor:pointer;
+	color:#000;
+}
+.final-position{
+	color:red;
+	font-weight:bold;
+}
