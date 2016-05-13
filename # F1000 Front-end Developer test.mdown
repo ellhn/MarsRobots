@@ -1,0 +1,14 @@
+# F1000 Front-end Developer test
+
+Implement the simple image gallery displayed in the wireframe using AngularJS.
+
+Please:
+
+1. Use Flickr apis to fetch the images.
+2. When no search keyword is provided return the most recent pictures uploaded on Flickr.
+3. Implement a hover state for thumbnails, the arrows on the side of the preview image and for the page numbers.
+4. Replace the magnifier with a ‘clear’ icon after a search by keyword is performed and set it back to a magnifier when the current query is modified.
+5. Disable the controls when the action is not possible (e.g. the previous page button should be disabled when current page is 1).
+6. When reasonable, bind keyboard events to actions.
+7. Use font icons for the missing assets.
+8. Organise your files and structure your code to maximise readability and maintainability.
